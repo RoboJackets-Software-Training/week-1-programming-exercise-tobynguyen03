@@ -30,7 +30,7 @@ int main() {
 		   	wheel_speeds[3] = 1;
         } else if (direction == 's') {
         	for (int i = 0; i < 4; i++) {
-        		wheel_speeds[i] = 1;
+        		wheel_speeds[i] = -1;
         	}
         } else if (direction == 'd') {
         	wheel_speeds[0] = 1;
